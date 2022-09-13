@@ -224,3 +224,207 @@ Status code: 200
 ---Checking Status Code---
 Status Line: HTTP/1.1 200 OK
 ---Finished TC003---
+---TC003 Post Employee Record---
+---Checking Content Encoding---
+Content Encoding: gzip
+---Checking Status body---
+Body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+---Checking Response Time---
+Response Time: 6757
+---Checking Server Type---
+Server Type: nginx
+---Checking Status Code---
+Status code: 429
+---Checking Status Code---
+Status Line: HTTP/1.1 429 Too Many Requests
+---Finished TC003 ---
+---TC003 Post Employee Record---
+---Checking Content Encoding---
+Content Encoding: null
+---Checking Status body---
+Body: {"status":"success","data":{"name":"Ikhalakh","salary":"4545","age":"27","id":4069},"message":"Successfully! Record has been added."}
+---Checking Response Time---
+Response Time: 2584
+---Checking Server Type---
+Server Type: Apache
+---Checking Status Code---
+Status code: 200
+---Checking Status Code---
+Status Line: HTTP/1.1 200 OK
+---Finished TC003 ---
+---TC004 Post Employee Record---
+---TC004 Post Employee Record---
+---Checking Content Encoding---
+Content Encoding: gzip
+---Checking Status body---
+Body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+---Checking Response Time---
+Response Time: 3078
+---Checking Server Type---
+Server Type: nginx
+---Checking Status Code---
+Status code: 429
+---Checking Status Code---
+Status Line: HTTP/1.1 429 Too Many Requests
+---Finished TC004 ---
+---TC004 Post Employee Record---
+---Checking Content Encoding---
+Content Encoding: null
+---Checking Status body---
+Body: {"status":"success","data":{"name":"Ismail","salary":"5000","age":"24"},"message":"Successfully! Record has been updated."}
+---Checking Response Time---
+Response Time: 2670
+---Checking Server Type---
+Server Type: nginx
+---Checking Status Code---
+Status code: 200
+---Checking Status Code---
+Status Line: HTTP/1.1 200 OK
+---Finished TC004 ---
+---TC004 Update Employee Record---
+---Checking Status Code---
+Status code: 429
+---TC004 Update Employee Record---
+---Checking Status Code---
+Status code: 200
+---TC004 Update Employee Record---
+---Checking Status body---
+Body: {"status":"success","data":"2","message":"Successfully! Record has been deleted"}
+---Checking Status Code---
+Status code: 200
+---Checking Status Code---
+Status Line: HTTP/1.1 200 OK
+---TC004 Update Employee Record---
+---Checking Status body---
+Body: {"status":"success","data":"2","message":"Successfully! Record has been deleted"}
+---Checking Status Code---
+Status code: 200
+---Checking Status Code---
+Status Line: HTTP/1.1 200 OK
+---TC005 Delete Employee Record---
+---Checking Status body---
+Body: {"status":"success","data":"2","message":"Successfully! Record has been deleted"}
+---Checking Status Code---
+Status code: 200
+---Checking Status Code---
+Status Line: HTTP/1.1 200 OK

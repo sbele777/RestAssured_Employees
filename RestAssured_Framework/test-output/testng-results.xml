@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5176" started-at="2022-09-13T11:21:08 IST" finished-at="2022-09-13T11:21:13 IST">
+  <suite name="Default suite" duration-ms="5618" started-at="2022-09-13T17:53:42 IST" finished-at="2022-09-13T17:53:48 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5176" started-at="2022-09-13T11:21:08 IST" finished-at="2022-09-13T11:21:13 IST">
-      <class name="com.employee.TestCases.TC002_GET_SingleEmployeeData">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.employee.TestCases.TC002_GET_SingleEmployeeData@6895a785]" name="setup" is-config="true" duration-ms="157" started-at="2022-09-13T11:21:08 IST" finished-at="2022-09-13T11:21:08 IST">
+    <test name="Default test" duration-ms="5618" started-at="2022-09-13T17:53:42 IST" finished-at="2022-09-13T17:53:48 IST">
+      <class name="com.employee.TestCases.TC005_DELETERecord">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.employee.TestCases.TC005_DELETERecord@48503868]" name="setup" is-config="true" duration-ms="154" started-at="2022-09-13T17:53:42 IST" finished-at="2022-09-13T17:53:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getSingleEmployee()[pri:0, instance:com.employee.TestCases.TC002_GET_SingleEmployeeData@6895a785]" name="getSingleEmployee" is-config="true" duration-ms="4734" started-at="2022-09-13T11:21:08 IST" finished-at="2022-09-13T11:21:13 IST">
+        <test-method status="PASS" signature="postEmployeeRecord()[pri:0, instance:com.employee.TestCases.TC005_DELETERecord@48503868]" name="postEmployeeRecord" is-config="true" duration-ms="5122" started-at="2022-09-13T17:53:42 IST" finished-at="2022-09-13T17:53:47 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getSingleEmployee -->
-        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employee.TestCases.TC002_GET_SingleEmployeeData@6895a785]" name="checkResponseBody" duration-ms="102" started-at="2022-09-13T11:21:13 IST" finished-at="2022-09-13T11:21:13 IST">
+        </test-method> <!-- postEmployeeRecord -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employee.TestCases.TC005_DELETERecord@48503868]" name="checkResponseBody" duration-ms="124" started-at="2022-09-13T17:53:48 IST" finished-at="2022-09-13T17:53:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.employee.TestCases.TC002_GET_SingleEmployeeData@6895a785]" name="checkResponseTime" duration-ms="14" started-at="2022-09-13T11:21:13 IST" finished-at="2022-09-13T11:21:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employee.TestCases.TC002_GET_SingleEmployeeData@6895a785]" name="checkStatusCode" duration-ms="16" started-at="2022-09-13T11:21:13 IST" finished-at="2022-09-13T11:21:13 IST">
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employee.TestCases.TC005_DELETERecord@48503868]" name="checkStatusCode" duration-ms="16" started-at="2022-09-13T17:53:48 IST" finished-at="2022-09-13T17:53:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-      </class> <!-- com.employee.TestCases.TC002_GET_SingleEmployeeData -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.employee.TestCases.TC005_DELETERecord@48503868]" name="checkStatusLine" duration-ms="16" started-at="2022-09-13T17:53:48 IST" finished-at="2022-09-13T17:53:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.employee.TestCases.TC005_DELETERecord -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

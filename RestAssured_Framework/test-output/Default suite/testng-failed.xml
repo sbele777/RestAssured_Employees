@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.employee.TestCases.TC002_GET_SingleEmployeeData">
+      <class name="com.employee.TestCases.TC005_DELETERecord">
         <methods>
+          <include name="postEmployeeRecord"/>
           <include name="setup"/>
-          <include name="getSingleEmployee"/>
           <include name="checkResponseBody"/>
-          <include name="checkResponseTime"/>
         </methods>
-      </class> <!-- com.employee.TestCases.TC002_GET_SingleEmployeeData -->
+      </class> <!-- com.employee.TestCases.TC005_DELETERecord -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
