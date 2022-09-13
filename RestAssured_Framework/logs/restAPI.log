@@ -1,0 +1,22 @@
+---TC002 Get Single Employee
+---Checking Response body---
+---Checking response Time---
+---Checking Status Code---
+---TC002 Get Single Employee
+---Checking Response body---
+---Checking response Time---
+---Checking Status Code---
+---TC002 Get Single Employee
+---Checking Response body---
+{"status":"success","data":null,"message":"Successfully! Record has been fetched."}
+---Checking response Time---
+Response Time: 2477
+---Checking Status Code---
+Status Code: 200
+---TC002 Get Single Employee
+---Checking Response body---
+{"status":"success","data":{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},"message":"Successfully! Record has been fetched."}
+---Checking response Time---
+Response Time: 2638
+---Checking Status Code---
+Status Code: 200
