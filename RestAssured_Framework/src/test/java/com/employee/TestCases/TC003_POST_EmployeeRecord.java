@@ -90,7 +90,10 @@ public class TC003_POST_EmployeeRecord extends TestBase{
 	@Test
 	void tearDown()
 	{
-		logger.info("---Finished TC003---");
+		logger.info("---Finished TC003 Done ---");
 	}
+	
+	
+	
 	
 }
