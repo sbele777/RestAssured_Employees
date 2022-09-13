@@ -55,7 +55,9 @@ public class TC003_POST_EmployeeRecord extends TestBase{
 		logger.info("---Checking Status body---");
 		String body = response.getBody().asString();
 		logger.info("Body: "+body);
-		Assert.assertTrue(body!=null);
+		Assert.assertEquals(body.contains("Ikhalakh"), true);
+		Assert.assertEquals(body.contains("4545"), true);
+		Assert.assertEquals(body.contains("27"), true);
 	}
 	
 	@Test
