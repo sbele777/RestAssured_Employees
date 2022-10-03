@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.employee.TestCases.TC001_GET_AllEmployeeData"/>
+      <class name="com.employee.TestCases.TC005_DELETERecord"/>
+      <class name="com.employee.TestCases.TC003_POST_EmployeeRecord"/>
+      <class name="com.employee.TestCases.TC004_PUT_UpdateRecord"/>
+      <class name="com.employee.TestCases.TC002_GET_SingleEmployeeData"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
